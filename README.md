@@ -5,6 +5,9 @@ Demo : [http://ferdhika31.github.io/curl-builder](http://ferdhika31.github.io/cu
 
 ![command builder](https://user-images.githubusercontent.com/8111407/96551463-89446c80-12dc-11eb-8d72-6288dfe451c9.PNG)
 
+## Requirements
+- [x] Node V14
+
 ## Available Scripts
 
 In the project directory, you can run:

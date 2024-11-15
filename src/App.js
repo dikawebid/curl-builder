@@ -57,11 +57,11 @@ export default function App() {
 	const resetCustomFields = () => {
 		setState({
 			...state,
-			is_json_valid: true
+			is_json_valid: true,
 		});
 
 		setJsonBody("")
-		if (state.body_type.toLowerCase() == "json") {
+		if (state.body_type.toLowerCase() === "json") {
 			setCustomFields([])
 		}
 		buildCommand();
@@ -176,7 +176,7 @@ export default function App() {
 		if (state.custom_headers.length > 0) {
 			let custom_headers = state.custom_headers;
 			for (let index = 0; index < custom_headers.length; index++) {
-				if (custom_headers[index].key != "" && custom_headers[index].value != "") {
+				if (custom_headers[index].key !== "" && custom_headers[index].value !== "") {
 					curl_command_string = curl_command_string + ' --header "' + custom_headers[index].key + ": " + custom_headers[index].value + '" ';
 				}
 			}
@@ -208,9 +208,9 @@ export default function App() {
 				' --header "Content-Type: application/x-www-form-urlencoded"';
 		}
 
-		if (state.body_type.toLowerCase() == "form data" && customFields.length !== 0) {
+		if (state.body_type.toLowerCase() === "form data" && customFields.length !== 0) {
 			for (let index = 0; index < customFields.length; index++) {
-				if (customFields[index].key != "" && customFields[index].value != "") {
+				if (customFields[index].key !== "" && customFields[index].value !== "") {
 					let str = " --form '" + customFields[index].key + "=" + customFields[index].value + "' ";
 					curl_command_string = curl_command_string + str;
 					curl_command_string = curl_command_string + ' --header "Content-Type: multipart/form-data"';
@@ -218,7 +218,7 @@ export default function App() {
 			}
 		}
 
-		if (state.uri != "") {
+		if (state.uri !== "") {
 			curl_command_string = curl_command_string + " '" + state.uri + "'";
 		}
 
