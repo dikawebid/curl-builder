@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/curl-builder/static/css/main.c94c5519.chunk.css",
+    "main.js": "/curl-builder/static/js/main.7969a169.chunk.js",
+    "main.js.map": "/curl-builder/static/js/main.7969a169.chunk.js.map",
+    "runtime-main.js": "/curl-builder/static/js/runtime-main.9964d635.js",
+    "runtime-main.js.map": "/curl-builder/static/js/runtime-main.9964d635.js.map",
+    "static/css/2.e4cb396d.chunk.css": "/curl-builder/static/css/2.e4cb396d.chunk.css",
+    "static/js/2.41e6b184.chunk.js": "/curl-builder/static/js/2.41e6b184.chunk.js",
+    "static/js/2.41e6b184.chunk.js.map": "/curl-builder/static/js/2.41e6b184.chunk.js.map",
+    "index.html": "/curl-builder/index.html",
+    "precache-manifest.fa6b77af948aa466817d952e66ea8e23.js": "/curl-builder/precache-manifest.fa6b77af948aa466817d952e66ea8e23.js",
+    "service-worker.js": "/curl-builder/service-worker.js",
+    "static/css/2.e4cb396d.chunk.css.map": "/curl-builder/static/css/2.e4cb396d.chunk.css.map",
+    "static/css/main.c94c5519.chunk.css.map": "/curl-builder/static/css/main.c94c5519.chunk.css.map",
+    "static/js/2.41e6b184.chunk.js.LICENSE.txt": "/curl-builder/static/js/2.41e6b184.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9964d635.js",
+    "static/css/2.e4cb396d.chunk.css",
+    "static/js/2.41e6b184.chunk.js",
+    "static/css/main.c94c5519.chunk.css",
+    "static/js/main.7969a169.chunk.js"
+  ]
+}
