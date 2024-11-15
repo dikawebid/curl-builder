@@ -36,7 +36,7 @@ export default function App() {
 		curl_command_text: "",
 		http_method: "-",
 		body_type: "-",
-		uri: "https://reqres.in/api/users/2",
+		uri: "https://reqres.in/api/users/5",
 		is_json: false,
 		is_json_valid: true,
 		is_accept_selfsigned : false,
